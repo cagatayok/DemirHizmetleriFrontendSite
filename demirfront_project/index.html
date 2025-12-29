@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ADEMEMREMETAL</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+   
+
+
+<script>
+  // Sayfa geçişlerinde ve her yeni sayfa yüklemesinde kaydırma en üste yapılır
+window.onload = function() {
+    window.scrollTo(0, 0);  // Sayfa en üste kaydırılır
+};
+
+// Eğer sayfa geçişlerinde scroll pozisyonu kayboluyorsa, 'hashchange' olayını dinleyebilirsiniz
+window.addEventListener("hashchange", function() {
+    window.scrollTo(0, 0);  // URL hash değiştiğinde scroll en üste kaydırılır
+});
+</script>
+
+
+  <script>
+    window.addEventListener('scroll', function() {
+  const header = document.querySelector('.header');
+  if (window.scrollY < 50) { // Eğer sayfa 50px'den fazla kayarsa
+    header.classList.add('shrink'); // shrink sınıfını ekle
+  } else {
+    header.classList.remove('shrink'); // Kaydırma geri alınırsa shrink sınıfını kaldır
+  }
+});
+  </script>
+
+  
+    
+  </body>
+</html>
