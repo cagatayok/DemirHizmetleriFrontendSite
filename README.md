@@ -45,11 +45,16 @@ index.html dosyasını tarayıcıda açın.
 ## 📸 Ekran Görüntüleri
 
 <p align="center">
-  <img src="f1.jpeg" width="700">
+  <img src="f1.png" width="700">
   <br><br>
-  <img src="Ekran%20görüntüsü_29-12-2025_21146_.jpeg" width="700">
+  <img src="f2.png" width="700">
   <br><br>
-  <img src="Ekran%20görüntüsü_29-12-2025_21227_.jpeg" width="700">
+  <img src="f3.png" width="700">
+   <br><br>
+   <img src="f4.png" width="700">
+   <br><br>
+   <img src="f5.png" width="700">
+   
 </p>
 
 
