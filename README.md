@@ -42,7 +42,16 @@ index.html dosyasını tarayıcıda açın.
 
 📸 Ekran Görüntüleri
 
-İleride proje görselleri eklenebilir.
+## 📸 Ekran Görüntüleri
+
+<p align="center">
+  <img src="f1.jpeg" width="700">
+  <br><br>
+  <img src="Ekran%20görüntüsü_29-12-2025_21146_.jpeg" width="700">
+  <br><br>
+  <img src="Ekran%20görüntüsü_29-12-2025_21227_.jpeg" width="700">
+</p>
+
 
 📄 Lisans
 
